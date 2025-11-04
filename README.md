@@ -65,7 +65,6 @@
 
 - 檢查是否有 `index.html` 檔案
 - 確認檔案不是空的
-- 檢查檔案位置 (根目錄或 `docs/` 資料夾)
 
 **Q: 如何知道哪裡出錯了?**
 
@@ -77,11 +76,6 @@
 - 檢查 CSS 是否有固定寬度 (如 `width: 1200px`)
 - 使用響應式單位 (如 `max-width: 100%`, `width: 100vw`)
 - 檢查是否有超出螢幕的元素
-
-**Q: 本機檢查通過,但 GitHub Actions 失敗?**
-
-- 確認 GitHub Actions 有正確安裝 Playwright (`npx playwright install --with-deps chromium`)
-- 檢查環境變數和權限設定
 
 ## 授權
 
